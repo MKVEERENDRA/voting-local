@@ -1,0 +1,74 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  justify-content: center;
+  margin-left: 2rem;
+  width: 90%;
+}
+
+/* Input box styling with blur and shadow effects */
+.input_box {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* On hover, elevate the box and deepen the shadow */
+.input_box:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Input field style */
+.input_box_form {
+  background-color: transparent; /* Soft light background for inputs */
+  color: var(--text-color); /* Standard dark grey text */
+  padding: 10px;
+  border-radius: var(--border-radius); /* Rounded corners */
+  box-shadow: var(--box-shadow-2); /* Shadow effect */
+  transition: all var(--transition); /* Smooth hover transition */
+}
+.input_box_form {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: var(--text-color); /* Standard dark grey text */
+  width: 100%;
+
+  border-radius: var(--border-radius); /* Rounded corners */
+  box-shadow: var(--box-shadow-2); /* Shadow effect */
+  transition: all var(--transition); 
+  padding: 10px;
+  resize: none; /* For textarea */
+}
+/* Placeholder style */
+.input_box_form::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* Softer placeholder text */
+}
+
+/* Focus state with glow effect */
+.input_box_form:focus {
+  border-color: var(--primary-color); /* Highlight border on focus */
+  box-shadow: 0 0 10px var(--primary-color); /* Glow effect on focus */
+  transform: scale(1.01); /* Slight scale effect for focus */
+}
+
+/* Style for textarea input */
+textarea.input_box_form {
+  min-height: 120px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .input_box {
+    padding: 10px;
+    width: 100%; /* Adjust to full width for smaller screens */
+  }
+}

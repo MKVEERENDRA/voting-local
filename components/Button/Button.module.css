@@ -1,0 +1,22 @@
+.button {
+    background-color: var(--primary-color); /* Primary button color */
+    border: none;
+    color: var(--light-text-color); /* Light text for readability */
+    padding: 10px 25px;
+    font-size: 1rem;
+    margin-left: 17rem;
+    font-weight: bold;
+    border-radius: var(--border-radius); /* Rounded corners */
+    cursor: pointer;
+    transition: all var(--transition); /* Smooth transition */
+  
+    box-shadow: var(--box-shadow); /* Apply soft shadow for depth */
+  }
+  
+  .button:hover {
+    background-color: var(--hover-color); /* Darker color on hover */
+    color: var(--hover-text-color); /* White text on hover */
+    transform: translateY(-3px); /* Lift on hover */
+    box-shadow: 0 12px 25px var(--hover-color); /* Stronger shadow on hover */
+  }
+  
