@@ -1,0 +1,208 @@
+.createVoter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--main-bg-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  margin-right: 8px;
+}
+
+.voter {
+  flex: 1;
+  margin-right: 2rem;
+ 
+
+}
+
+.voter_container {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  width: 90%;
+
+  padding: 2rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.voter_container_box {
+  margin-top: 1.5rem;
+}
+
+.voter_container_box_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  border: 1px dashed var(--primary-color);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  transition: all var(--transition);
+}
+
+.voter_container_box_div:hover {
+  border-color: var(--hover-color);
+  box-shadow: 0 0 10px var(--hover-color);
+}
+
+.voter_container_box_div_input {
+  text-align: center;
+  color: var(--text-color);
+}
+
+.voter_container_box_div_image {
+  margin: 1rem 0;
+}
+
+.voterInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.voterInfo img {
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.voterInfo_para {
+  color: var(--text-color);
+}
+
+.sideInfo {
+  flex: 1;
+  padding: 5rem;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--shadow-dark-color);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  margin-right: 19px;
+  backdrop-filter: blur(10px);
+  font-size: large;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.sideInfo_box h4 {
+  color: var(--primary-color);
+  background-color: var(--main-bg-color);
+  padding: 8px;
+
+}
+
+.sideInfo_box p {
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+.sideInfo_para {
+  color: var(--secondary-color);
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.car {
+  margin-top: 1.5rem;
+}
+
+.card_box {
+  background-color: var(--main-bg-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card_info p {
+  margin: 0.5rem 0;
+  color: var(--text-color);
+}
+
+.input_container {
+  margin-bottom: .5rem;
+
+}
+ .input_container1{
+  padding: 1.5rem;
+  align-items: center; /* Center items vertically */
+margin-left:2rem;
+
+
+}
+.createdVoter {
+  flex: 1;
+}
+
+.createdVoter_info {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  color: var(--text-color);
+}
+
+.createdVoter_info_image {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.createdVoter_info_image img {
+  border-radius: 50%;
+}
+
+.createdVoter_info span {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.voterInfoBox {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  padding: 30px; /* Add padding inside the box */
+  background: rgba(255, 255, 255, 0.8); /* Light background for contrast */
+  border: 1px solid #e0e0e0; /* Soft border color */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin: 20px 16px; /* Spacing around the box */
+  transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+.voterInfoBox:hover {
+  transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+.imageContainer {
+  flex-shrink: 0; /* Prevent the image from shrinking */
+  margin-right: 20px; /* Space between image and text */
+}
+
+.imageContainer img {
+  border-radius: 50%; /* Circular image */
+  border: 2px solid var(--primary-color); /* Add a border around the image */
+}
+
+.voterInfo_para {
+  color: var(--text-color); /* Text color */
+  font-size: 1.2rem; /* Slightly larger font size */
+  font-weight: 500; /* Medium weight for emphasis */
+}
+
+.voterInfo_para p {
+  margin: 0; /* Remove default margins */
+}
+
+/* Optional: Add responsive styles */
+@media (max-width: 768px) {
+  .voterInfoBox {
+      flex-direction: column; /* Stack items on smaller screens */
+      align-items: center; /* Center items */
+      text-align: center; /* Center text */
+  }
+
+  .imageContainer {
+      margin-bottom: 10px; /* Space below the image */
+  }
+}

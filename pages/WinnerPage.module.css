@@ -1,0 +1,60 @@
+/* Ensure the entire page is centered */
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: transparent; /* Light background to make the card stand out */
+}
+
+/* Style the card */
+.winnerCard {
+  background: linear-gradient(135deg, #11cb6e 0%, #fc258d 100%); /* Purple to Blue gradient */
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title of the winner section */
+.winnerTitle {
+  font-size: 3rem;
+  color: #900a39; /* Green color */
+  margin-bottom: 2rem;
+}
+
+/* Candidate image */
+.winnerImage {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  border: 3px solid #4caf50; /* Green border for better visuals */
+}
+
+/* Winner details */
+.winnerName {
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.winnerCount,
+.winnerAge,
+.winnerAddress {
+  font-size: 1.5rem;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.celebrationMessage {
+  font-size: 1.8rem;
+  color: #ff5722; /* Orange color */
+  margin-top: 2rem;
+}
