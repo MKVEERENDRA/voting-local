@@ -358,7 +358,7 @@ const vote = async (candidateId) => {
         console.log("Vote cast:", tx);
     } catch (error) {
         console.error("Error casting vote", error);
-        setError("Fist Resister As a Voter in NavBar,If its not sloved then contact veerendravamshi@gmail.com",error);
+        setError("Pls First Resister As a Voter in NavBar,If its not sloved then contact to veerendravamshi@gmail.com",error);
 
     }
 };
