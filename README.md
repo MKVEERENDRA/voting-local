@@ -28,10 +28,12 @@ A decentralized voting application built with Next.js, React, and Ethereum smart
 ## ⚙️ Installation
 
 1. Clone the repository:
- git clone https://github.com/yourusername/voting-dapp.git
+ git clone https://github.com/MKVEERENDRA/voting-dapp.git
  cd voting-dapp
 2. Install dependencies:
    npm install
+3. Run the APP
+   npm run dev
 ## Project Structure
 
 voting-dapp/
@@ -59,7 +61,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- Your Name
+- MKVEERENDRA
 - GitHub: [IOT-Team](https://github.com/MKVEERENDRA)
 
 ## 🙏 Acknowledgments
